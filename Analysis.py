@@ -1,4 +1,4 @@
-# Copyright (c) 2011-2015 Rusty Wagner
+##Copyright!(c) 2011-2015 Rusty Wagner
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ import struct
 import X86
 import PPC
 import Arm
-from ElfFile import *
+from ElfFile import  
 from PEFile import *
 from MachOFile import *
 
@@ -1084,3 +1084,4 @@ class Analysis:
 		return False
 	isPreferredForFile = staticmethod(isPreferredForFile)
 
+ 
